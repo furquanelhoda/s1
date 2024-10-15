@@ -104,16 +104,24 @@
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
             direction: ltr;
         }
+        .stb{
+            background-color: #0fe9f1;
+        }
+        .roja{
+            background-color: #f10f0f;
+            padding: 3px;
+        }
         #table1 {
             width: 100%;
-            max-width: 600px;
+            max-width: 400px;
             margin: 0 auto;
+            /* float: right; */
         }
         caption {
-            background-color: #e74c3c;
-            color: white;
+            /* background-color: #ebe70f; */
+            color: rgb(7, 2, 2);
             font-size: 1.2em;
-            padding: 0.8em;
+            /* padding: 0.8em; */
             font-weight: bold;
         }
         th, td {
@@ -122,18 +130,21 @@
             text-align: center;
         }
         th {
-            background-color: #f1c40f;
+            background-color: #1cff07b2;
             color: #2c3e50;
             font-weight: bold;
         }
         tr:nth-child(4n+1), tr:nth-child(4n+2) {
-            background-color: #ffffff;
+            /* background-color: #ffffff; */
+            background-color: #ffffffd7;
         }
         tr:nth-child(4n+3), tr:nth-child(4n+4) {
+            /* background-color: #f2f2f2; */
             background-color: #f2f2f2;
         }
         tr:hover {
-            background-color: #e6e6e6;
+            /* background-color: #e6e6e6; */
+            background-color: #58ee12b7;
             transition: background-color 0.3s ease;
         }
         .span1, .span2 {
@@ -202,20 +213,20 @@
         <table id="table1">
             <thead>
                 <tr>
-                    <th class="two">1 </th>
+                    <th class="two stb">1 </th>
                     <th class="one">1 </th>
-                    <th class="two">1 </th>
+                    <th class="two stb">1 </th>
                     <th class="one">1 </th>
-                    <th class="fred">عدد تكرارها</th>
+                    <th class="fred stb">عدد تكرارها</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <th class="two">ر</th>
+                    <th class="two stb">ر</th>
                     <th class="one">م</th>
-                    <th class="two">ل</th>
+                    <th class="two stb">ل</th>
                     <th class="one">أ</th>
-                    <th class="fred">حروف الفرقان</th>
+                    <th class="fred stb">حروف الفرقان</th>
                 </tr>
                
             </tbody>
@@ -233,7 +244,7 @@
 
             <table align="center" border="1" cellpadding="0" cellspacing="0" ">
                 <caption>
-                    <p><span style="font-size:20px">فرقان : النسبية والسبع المثاني</span></p>
+                    <p ><span style="font-size:20px" class="span2">الفرقان : النسبية  &  السبع المثاني</span></p>
                 </caption>
                 <thead>
                     <tr>
@@ -266,7 +277,7 @@
                         <td style="text-align:center"><span style="font-size:16px">العلق</span></td>
                     </tr>
                     <tr>
-                        <td style="text-align:center"><span style="font-size:16px ">  ألمر </span></td>
+                        <td class="roja"  style="text-align:center"><span style="font-size:16px  " >  ألمر </span></td>
                         <td style="text-align:center"><span style="font-size:16px">3450</span></td>
                         <td style="text-align:center"><span style="font-size:16px">854</span></td>
                         <td style="text-align:center"><span style="font-size:16px">43</span></td>
